@@ -1,0 +1,13 @@
+general.import = [
+    "~/.config/alacritty/themes/gruvbox_material_dark.toml"
+]
+
+[terminal.shell]
+program = "/usr/bin/fish"
+
+[window]
+padding = {x = 10, y = 10}
+opacity = 0.9
+
+[font]
+normal = {family = "FantasqueSansM Nerd Font"}

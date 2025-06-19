@@ -45,6 +45,31 @@ theme.taglist_font = "FantasqueSansM Nerd Font Mono 19"
 --theme.tag_colors = { theme.orange, theme.yellow, theme.green, theme.aqua, theme.blue, theme.purple, theme.red }
 
 
+--calendar
+theme.calendar_style_month = {
+    border_width = 2,
+    padding = 5,
+    bg_color = theme.bg_normal,
+    border_color = theme.bg_focus,
+}
+theme.calendar_style_header = {
+    border_width = 0,
+    bg_color = theme.bg_focus,
+}
+theme.calendar_style_weekday = {
+    border_width = 0,
+    bg_color = theme.bg_normal,
+}
+theme.calendar_style_normal = {
+    border_width = 0,
+    bg_color = theme.bg_normal,
+}
+theme.calendar_style_focus = {
+    border_width = 0,
+    bg_color = theme.bg_focus,
+}
+
+
 -- There are other variable sets
 -- overriding the default one when
 -- defined, the sets are:
